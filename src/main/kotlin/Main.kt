@@ -1,3 +1,9 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import menu.MainMenu
+
+fun main() {
+    while (true) {
+        MainMenu.mainMenu()
+        println("Выход из программы.")
+        break
+    }
 }
